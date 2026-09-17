@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Bin
+comment1.params=
+comment1.target=Bin()
+comment10.params=g
+comment10.target=void\ draw(java.awt.Graphics)
+comment2.params=
+comment2.target=void\ move()
+comment3.params=
+comment3.target=int\ getLeft()
+comment4.params=
+comment4.target=int\ getTop()
+comment5.params=
+comment5.target=int\ getRight()
+comment6.params=
+comment6.target=int\ getBottom()
+comment7.params=temp
+comment7.target=void\ setLeft(boolean)
+comment8.params=temp
+comment8.target=void\ setRight(boolean)
+comment9.params=temp
+comment9.target=void\ setDown(boolean)
+numComments=11

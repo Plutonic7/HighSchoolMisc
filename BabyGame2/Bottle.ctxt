@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Bottle
+comment1.params=
+comment1.target=Bottle()
+comment2.params=
+comment2.target=void\ move()
+comment3.params=
+comment3.target=int\ getLeft()
+comment4.params=
+comment4.target=int\ getTop()
+comment5.params=
+comment5.target=int\ getRight()
+comment6.params=
+comment6.target=int\ getBottom()
+comment7.params=
+comment7.target=void\ reset()
+comment8.params=g
+comment8.target=void\ draw(java.awt.Graphics)
+numComments=9
