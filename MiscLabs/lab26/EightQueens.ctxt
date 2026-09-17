@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=EightQueens
+comment1.params=row
+comment1.target=void\ findQueens(int)
+comment2.params=r\ c
+comment2.target=boolean\ checkDiag(int,\ int)
+comment3.params=r\ c\ dx\ dy
+comment3.target=boolean\ checkDiag(int,\ int,\ int,\ int)
+comment4.params=
+comment4.target=void\ printGrid()
+numComments=5

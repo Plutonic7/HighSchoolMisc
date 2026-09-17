@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Life
+comment1.params=
+comment1.target=void\ clumpGone()
+comment2.params=row\ col
+comment2.target=void\ erase(int,\ int)
+comment3.params=
+comment3.target=void\ print()
+numComments=4
