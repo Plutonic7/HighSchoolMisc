@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AbstractGrid
+comment0.text=\r\n\ <code>AbstractGrid</code>\ contains\ the\ methods\ that\ are\ common\ to\ grid\r\n\ implementations.\ <br\ />\r\n\ The\ implementation\ of\ this\ class\ is\ testable\ on\ the\ AP\ CS\ AB\ exam.\r\n
+comment1.params=loc
+comment1.target=java.util.ArrayList\ getNeighbors(Location)
+comment2.params=loc
+comment2.target=java.util.ArrayList\ getValidAdjacentLocations(Location)
+comment3.params=loc
+comment3.target=java.util.ArrayList\ getEmptyAdjacentLocations(Location)
+comment4.params=loc
+comment4.target=java.util.ArrayList\ getOccupiedAdjacentLocations(Location)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Creates\ a\ string\ that\ describes\ this\ grid.\r\n\ @return\ a\ string\ with\ descriptions\ of\ all\ objects\ in\ this\ grid\ (not\r\n\ necessarily\ in\ any\ particular\ order),\ in\ the\ format\ {loc\=obj,\ loc\=obj,\r\n\ ...}\r\n
+numComments=6

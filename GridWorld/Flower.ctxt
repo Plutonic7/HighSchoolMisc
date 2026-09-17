@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Flower
+comment0.text=\r\n\ A\ <code>Flower</code>\ is\ an\ actor\ that\ darkens\ over\ time.\ Some\ actors\ drop\r\n\ flowers\ as\ they\ move.\ <br\ />\r\n\ The\ API\ of\ this\ class\ is\ testable\ on\ the\ AP\ CS\ A\ and\ AB\ exams.\r\n
+comment1.params=
+comment1.target=Flower()
+comment1.text=\r\n\ Constructs\ a\ pink\ flower.\r\n
+comment2.params=initialColor
+comment2.target=Flower(java.awt.Color)
+comment2.text=\r\n\ Constructs\ a\ flower\ of\ a\ given\ color.\r\n\ @param\ initialColor\ the\ initial\ color\ of\ this\ flower\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Causes\ the\ color\ of\ this\ flower\ to\ darken.\r\n
+numComments=4
