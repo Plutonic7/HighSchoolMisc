@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PseudoInfiniteViewport
+comment0.text=\n\ A\ <code>PseudoInfiniteViewport</code>\ is\ a\ <code>JViewport</code>\n\ subclass\ that\ translates\ scroll\ actions\ into\ pan\ actions\ across\ an\ unbounded\n\ view.\ <br\ />\n\ This\ code\ is\ not\ tested\ on\ the\ AP\ CS\ A\ and\ AB\ exams.\ It\ contains\ GUI\n\ implementation\ details\ that\ are\ not\ intended\ to\ be\ understood\ by\ AP\ CS\n\ students.\n
+comment1.params=parent
+comment1.target=PseudoInfiniteViewport(javax.swing.JScrollPane)
+comment1.text=\n\ Construct\ a\ new\ PseudoInfiniteViewport\ object\ for\ the\ given\ scrollpane.\n\ @param\ parent\ the\ JScrollPane\ for\ which\ this\ will\ be\ the\ viewport\n
+comment2.params=pt
+comment2.target=void\ setViewPosition(java.awt.Point)
+comment2.text=\n\ Sets\ the\ view\ position\ (upper\ left)\ to\ a\ new\ point.\ Overridden\ from\n\ JViewport\ to\ do\ a\ pan,\ instead\ of\ scroll,\ on\ an\ unbounded\ view.\n\ @param\ pt\ the\ Point\ to\ become\ the\ upper\ left\n
+comment3.params=
+comment3.target=java.awt.Point\ getViewPosition()
+comment3.text=\n\ Returns\ current\ view\ position\ (upper\ left).\ Overridden\ from\ JViewport\ to\n\ use\ pan\ center\ point\ for\ unbounded\ view.\n
+comment4.params=
+comment4.target=java.awt.Dimension\ getViewSize()
+comment4.text=\n\ Returns\ current\ view\ size.\ Overridden\ from\ JViewport\ to\ use\ preferred\n\ virtual\ size\ for\ unbounded\ view.\n
+comment5.params=
+comment5.target=PseudoInfiniteViewport.Pannable\ getPannableView()
+comment6.params=
+comment6.target=boolean\ viewIsUnbounded()
+comment7.params=
+comment7.target=java.awt.Point\ getPanCenterPoint()
+numComments=8
