@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=
+comment1.target=Player()
+comment10.params=g
+comment10.target=void\ draw(java.awt.Graphics)
+comment2.params=plats
+comment2.target=void\ move(Platform[])
+comment3.params=
+comment3.target=int\ getLeft()
+comment4.params=
+comment4.target=int\ getRight()
+comment5.params=
+comment5.target=int\ getBottom()
+comment6.params=
+comment6.target=void\ left()
+comment7.params=
+comment7.target=void\ right()
+comment8.params=
+comment8.target=void\ jump()
+comment9.params=
+comment9.target=boolean\ isJumping()
+numComments=11

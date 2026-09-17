@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Platform
+comment1.params=xPos\ yPos\ w\ h
+comment1.target=Platform(int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getTop()
+comment3.params=
+comment3.target=int\ getLeft()
+comment4.params=
+comment4.target=int\ getRight()
+comment5.params=page
+comment5.target=void\ draw(java.awt.Graphics)
+numComments=6
