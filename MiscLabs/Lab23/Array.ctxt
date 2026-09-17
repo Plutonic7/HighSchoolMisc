@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Array
+comment1.params=
+comment1.target=void\ Array1()
+comment2.params=
+comment2.target=int\ Largest()
+comment3.params=
+comment3.target=double\ highestAverage()
+comment4.params=
+comment4.target=int\ highestOdds()
+comment5.params=
+comment5.target=int\ MostVal()
+comment6.params=x
+comment6.target=int\ NumOfVal(int)
+numComments=7

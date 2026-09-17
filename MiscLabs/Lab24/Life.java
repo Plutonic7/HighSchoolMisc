@@ -1,11 +1,12 @@
 import java.util.Scanner;
 import java.io.*;
-public class Life{
+public class Life
+{
     private boolean[][] bacteria;
     public Life(){
         bacteria = new boolean[22][22];
         try{
-            Scanner sc = new Scanner( new File("life100.txt"));
+            Scanner sc = new Scanner( new File( "life100.txt" ) );
             int numPairs = sc.nextInt();
             for( int i = 0; i < numPairs; i++ ){
                 int row = sc.nextInt();
@@ -37,7 +38,7 @@ public class Life{
                 }
             }
         }
-        System.out.println("Number of living organisms: " + count);
+        System.out.println("Number of living organisms ---> " + count);
     }
     public void print(){
         for( int r = 0; r < bacteria.length; r++ ){
@@ -51,8 +52,9 @@ public class Life{
             System.out.println();
         }
     }
-    public void generation(){
-        boolean[][] temp = new boolean[22][22];
+    public void generation()
+    {
+        boolean[][] temp = new boolean[22][22];//create a new blank array
         for( int r = 1; r < bacteria.length-1; r++ ){
             for( int c = 1; c < bacteria[0].length-1; c++ ){
                 if( bacteria[r][c] == false ){
@@ -69,7 +71,7 @@ public class Life{
                 }
             }
         }
-        bacteria = temp;
+        bacteria = temp;//assign updated array to bacteria
     }
     public int neighbors( int row, int col ){
         int neighbor = 0;
